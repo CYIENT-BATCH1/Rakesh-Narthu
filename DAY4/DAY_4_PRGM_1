@@ -1,0 +1,9 @@
+J)COMMA OPERATOR
+
+#include <stdio.h>
+void main(){
+    int a=2,b=3,c,d;
+    c=a,b;
+    d=(a,b);
+    printf("%d %d",c,d);
+}
