@@ -5,3 +5,5 @@ Algorithm:
  2. 'a' rightshift with 4 and & with 0x0f after 'a' & with oxof and leftshift with 4.
  3.Make or(|) to the above rightshift and leftshift value and assigned in 'a'.
  4.Then print the 'a' value.
+
+
