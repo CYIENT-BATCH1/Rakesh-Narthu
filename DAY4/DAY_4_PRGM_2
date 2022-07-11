@@ -1,0 +1,7 @@
+2) GIVEN NUMBER IS POWER OF 2 OR NOT
+     #include <stdio.h>
+      void main(){
+       int n=30;
+      ((n&n-1)==0) ? printf("2 power n") : printf("not 2 power n");
+    
+       }
