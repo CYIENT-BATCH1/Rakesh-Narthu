@@ -1,0 +1,7 @@
+1. Write a program to convert a data stream from Little Endian to Big Endian (you can take any 8 bit value or use 0b110101110)?
+ 
+Algorithm:
+ 1.Define int 'a' with hexadecimal value.
+ 2. 'a' rightshift with 4 and & with 0x0f after 'a' & with oxof and leftshift with 4.
+ 3.Make or(|) to the above rightshift and leftshift value and assigned in 'a'.
+ 4.Then print the 'a' value.
